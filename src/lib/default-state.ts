@@ -15,7 +15,7 @@ export function createDefaultState(): HouseholdState {
 				month: '2026-07',
 				status: 'draft',
 				method: 'equal-total',
-				communityCost: 246626,
+				communityCost: 250000,
 				specialIncomes: [],
 				savings: [
 					{ id: 'saving-funds', label: 'Fonds', amount: 50000 },
@@ -24,8 +24,8 @@ export function createDefaultState(): HouseholdState {
 				personIds: ['person-1', 'person-2'],
 				personNames: { 'person-1': 'Person 1', 'person-2': 'Person 2' },
 				personValues: {
-					'person-1': { income: 330868, need: 18835 },
-					'person-2': { income: 60286, need: 35431 }
+					'person-1': { income: 600000, need: 133700 },
+					'person-2': { income: 600000, need: 674200 }
 				},
 				notes: '',
 				createdAt,
